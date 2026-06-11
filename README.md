@@ -15,11 +15,11 @@ Exercício 6: Encontre todos os clientes que nunca fizeram um pedido. Utilize LE
 
 Exercício 7: Faça um SELF JOIN na tabela funcionarios para listar o nome de cada funcionário e o nome do seu respectivo supervisor (dica: a tabela possui as colunas id e supervisor_id).
 
-Exercício 8: Junte as tabelas alunos, matriculas e cursos para retornar o nome do aluno e o nome do curso em que ele está matriculado.
+Exercício 8: Junte as tabelas clientes, pedidos e itens_pedido (e opcionalmente produtos) para retornar o nome do cliente, o ID do pedido e o nome do produto que ele comprou.
 
 Exercício 9: Retorne o nome do produto, o preço unitário e a quantidade total vendida (da tabela itens_pedido). Agrupe por produto.
 
-Exercício 10: Combine as tabelas fornecedores e produtos. Exiba o nome do fornecedor e a quantidade de produtos distintos que ele fornece, mas apenas para fornecedores com mais de 5 produtos.
+Exercício 10: Combine as tabelas categorias e produtos. Exiba o nome da categoria e a quantidade de produtos distintos que pertencem a ela, mas apenas para categorias que possuem mais de 1 produto cadastrado
 
 Difícil
 Exercício 11: Crie um relatório com o FULL OUTER JOIN entre as tabelas vendas_2024 e vendas_2025 baseado no produto_id. Exiba o ID do produto e calcule a diferença de receita entre os dois anos (trate valores nulos como zero).
